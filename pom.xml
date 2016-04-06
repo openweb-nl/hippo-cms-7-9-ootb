@@ -12,7 +12,7 @@
   <description>My Hippo Project</description>
   <groupId>nl.openweb.hippo.demo</groupId>
   <artifactId>out-of-box-hippo</artifactId>
-  <version>7.9.8-SNAPSHOT</version>
+  <version>7.9.8</version>
   <packaging>pom</packaging>
 
   <!-- 
