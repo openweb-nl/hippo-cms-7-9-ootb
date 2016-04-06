@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>outofboxhippo</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedBeansPackage>nl.openweb.hippo.demo.beans</selectedBeansPackage>
+  <selectedComponentsPackage>nl.openweb.hippo.demo.components</selectedComponentsPackage>
+  <selectedRestPackage>nl.openweb.hippo.demo.rest</selectedRestPackage>
+  <setupDone>false</setupDone>
+  <templateLanguage>freemarker</templateLanguage>
+  <useSamples>true</useSamples>
+</project>
