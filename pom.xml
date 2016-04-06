@@ -335,7 +335,7 @@
             <artifactId>docker-maven-plugin</artifactId>
             <version>0.4.3</version>
             <configuration>
-              <imageName>your-docker-registry/${project.artifactId}</imageName>
+              <imageName>openweb/hippo-out-of-box</imageName>
               <dockerDirectory>src/main/docker</dockerDirectory>
               <resources>
                 <resource>
