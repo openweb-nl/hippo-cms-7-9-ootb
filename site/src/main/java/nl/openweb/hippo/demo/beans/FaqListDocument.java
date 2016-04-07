@@ -21,23 +21,23 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:faqlistdocument")
-@Node(jcrType = "outofboxhippo:faqlistdocument")
+@HippoEssentialsGenerated(internalName = "ootb:faqlistdocument")
+@Node(jcrType = "ootb:faqlistdocument")
 public class FaqListDocument extends BaseDocument {
 
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+	@HippoEssentialsGenerated(internalName = "ootb:title")
 	public String getTitle() {
-		return getProperty("outofboxhippo:title");
+		return getProperty("ootb:title");
 	}
 
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:description")
+	@HippoEssentialsGenerated(internalName = "ootb:description")
 	public HippoHtml getDescription() {
-		return getHippoHtml("outofboxhippo:description");
+		return getHippoHtml("ootb:description");
 	}
 
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:faqdocuments")
+	@HippoEssentialsGenerated(internalName = "ootb:faqdocuments")
     public List<FaqDocument> getFaqDocuments() {
-        return getLinkedBeans("outofboxhippo:faqdocuments", FaqDocument.class);
+        return getLinkedBeans("ootb:faqdocuments", FaqDocument.class);
     }
 
 

@@ -18,19 +18,19 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoCompound;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:account")
-@Node(jcrType = "outofboxhippo:account")
+@HippoEssentialsGenerated(internalName = "ootb:account")
+@Node(jcrType = "ootb:account")
 public class Account extends HippoCompound {
 
-    public static final String TYPE = "outofboxhippo:type";
-    public static final String LINK = "outofboxhippo:link";
+    public static final String TYPE = "ootb:type";
+    public static final String LINK = "ootb:link";
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:type")
+    @HippoEssentialsGenerated(internalName = "ootb:type")
     public String getType() {
         return getProperty(TYPE);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:link")
+    @HippoEssentialsGenerated(internalName = "ootb:link")
     public String getLink() {
         return getProperty(LINK);
     }

@@ -15,10 +15,10 @@
     <sv:value>Date</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
-    <sv:value>outofboxhippo:authornames</sv:value>
-    <sv:value>outofboxhippo:categories</sv:value>
+    <sv:value>ootb:authornames</sv:value>
+    <sv:value>ootb:categories</sv:value>
     <sv:value>hippostd:tags</sv:value>
-    <sv:value>outofboxhippo:publicationdate$[
+    <sv:value>ootb:publicationdate$[
                 {name:'Last 7 days',resolution:'day', begin:-6, end:1},
                 {name:'Last month',resolution:'day', begin:-30, end:1},
                 {name:'Last 3 months',resolution:'day', begin:-91, end:1},
@@ -27,13 +27,13 @@
                 ]</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:filters" sv:type="String" sv:multiple="true">
-    <sv:value>jcr:primaryType = outofboxhippo:blogpost</sv:value>
+    <sv:value>jcr:primaryType = ootb:blogpost</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:limit" sv:type="Long">
     <sv:value>100</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:sortby" sv:type="String" sv:multiple="true">
-    <sv:value>outofboxhippo:publicationdate</sv:value>
+    <sv:value>ootb:publicationdate</sv:value>
   </sv:property>
   <sv:property sv:name="hippofacnav:sortorder" sv:type="String" sv:multiple="true">
     <sv:value>descending</sv:value>

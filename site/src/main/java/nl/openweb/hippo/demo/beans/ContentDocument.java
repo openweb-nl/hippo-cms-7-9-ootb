@@ -20,26 +20,26 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:contentdocument")
-@Node(jcrType = "outofboxhippo:contentdocument")
+@HippoEssentialsGenerated(internalName = "ootb:contentdocument")
+@Node(jcrType = "ootb:contentdocument")
 public class ContentDocument extends BaseDocument {
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:introduction")
+    @HippoEssentialsGenerated(internalName = "ootb:introduction")
     public String getIntroduction() {
-        return getProperty("outofboxhippo:introduction");
+        return getProperty("ootb:introduction");
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+    @HippoEssentialsGenerated(internalName = "ootb:title")
     public String getTitle() {
-        return getProperty("outofboxhippo:title");
+        return getProperty("ootb:title");
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:content")
+    @HippoEssentialsGenerated(internalName = "ootb:content")
     public HippoHtml getContent() {
-        return getHippoHtml("outofboxhippo:content");
+        return getHippoHtml("ootb:content");
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:mypublicationdate")
+    @HippoEssentialsGenerated(internalName = "ootb:mypublicationdate")
     public Calendar getPublicationDate() {
-        return getProperty("outofboxhippo:mypublicationdate");
+        return getProperty("ootb:mypublicationdate");
     }
 }

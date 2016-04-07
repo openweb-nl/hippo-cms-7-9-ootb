@@ -26,37 +26,37 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:author")
-@Node(jcrType = "outofboxhippo:author")
+@HippoEssentialsGenerated(internalName = "ootb:author")
+@Node(jcrType = "ootb:author")
 public class Author extends HippoDocument implements AuthorEntry {
 
-    public static final String ROLE = "outofboxhippo:role";
-    public static final String ACCOUNTS = "outofboxhippo:accounts";
-    public static final String FULL_NAME = "outofboxhippo:fullname";
-    public static final String IMAGE = "outofboxhippo:image";
-    public static final String CONTENT = "outofboxhippo:content";
+    public static final String ROLE = "ootb:role";
+    public static final String ACCOUNTS = "ootb:accounts";
+    public static final String FULL_NAME = "ootb:fullname";
+    public static final String IMAGE = "ootb:image";
+    public static final String CONTENT = "ootb:content";
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:fullname")
+    @HippoEssentialsGenerated(internalName = "ootb:fullname")
     public String getFullName() {
         return  getProperty(FULL_NAME);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:content")
+    @HippoEssentialsGenerated(internalName = "ootb:content")
     public HippoHtml getContent() {
         return getHippoHtml(CONTENT);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:role")
+    @HippoEssentialsGenerated(internalName = "ootb:role")
     public String getRole() {
         return getProperty(ROLE);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:image")
+    @HippoEssentialsGenerated(internalName = "ootb:image")
     public HippoGalleryImage getImage() {
         return getLinkedBean(IMAGE, HippoGalleryImage.class);
     }
 
-  	@HippoEssentialsGenerated(internalName = "outofboxhippo:accounts")
+  	@HippoEssentialsGenerated(internalName = "ootb:accounts")
 	  public List<Account> getAccounts() {
 		    return getChildBeansByName(ACCOUNTS, Account.class);
 	  }

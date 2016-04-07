@@ -32,7 +32,7 @@
     </sv:property>
     <sv:node sv:name="video-example">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>outofboxhippo:video</sv:value>
+        <sv:value>ootb:video</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
@@ -69,13 +69,13 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:description" sv:type="String">
+      <sv:property sv:name="ootb:description" sv:type="String">
         <sv:value>Sky News report on a South African family who have a hippo living in their house as a pet</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:link" sv:type="String">
+      <sv:property sv:name="ootb:link" sv:type="String">
         <sv:value>//www.youtube.com/embed/KWgB1hyOHWc</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:title" sv:type="String">
+      <sv:property sv:name="ootb:title" sv:type="String">
         <sv:value>Video example</sv:value>
       </sv:property>
     </sv:node>
@@ -92,7 +92,7 @@
     </sv:node>
     <sv:node sv:name="video-example">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>outofboxhippo:video</sv:value>
+        <sv:value>ootb:video</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
@@ -131,19 +131,19 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:description" sv:type="String">
+      <sv:property sv:name="ootb:description" sv:type="String">
         <sv:value>Sky News report on a South African family who have a hippo living in their house as a pet</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:link" sv:type="String">
+      <sv:property sv:name="ootb:link" sv:type="String">
         <sv:value>//www.youtube.com/embed/KWgB1hyOHWc</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:title" sv:type="String">
+      <sv:property sv:name="ootb:title" sv:type="String">
         <sv:value>Video example</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="video-example">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>outofboxhippo:video</sv:value>
+        <sv:value>ootb:video</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
@@ -184,13 +184,13 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:description" sv:type="String">
+      <sv:property sv:name="ootb:description" sv:type="String">
         <sv:value>Sky News report on a South African family who have a hippo living in their house as a pet</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:link" sv:type="String">
+      <sv:property sv:name="ootb:link" sv:type="String">
         <sv:value>//www.youtube.com/embed/KWgB1hyOHWc</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:title" sv:type="String">
+      <sv:property sv:name="ootb:title" sv:type="String">
         <sv:value>Video example</sv:value>
       </sv:property>
     </sv:node>

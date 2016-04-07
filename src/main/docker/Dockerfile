@@ -1,3 +1,3 @@
 FROM openweb/hippo:mysql-10
 
-ADD hippo-cms7-release-distribution.tar.gz /usr/local/tomcat
+ADD hippo-cms-7-9-ootb-distribution.tar.gz /usr/local/tomcat

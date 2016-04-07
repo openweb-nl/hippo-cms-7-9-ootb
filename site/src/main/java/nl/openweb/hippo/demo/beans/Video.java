@@ -18,21 +18,21 @@ package nl.openweb.hippo.demo.beans;
 import org.hippoecm.hst.content.beans.Node;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:video")
-@Node(jcrType = "outofboxhippo:video")
+@HippoEssentialsGenerated(internalName = "ootb:video")
+@Node(jcrType = "ootb:video")
 public class Video extends BaseDocument {
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+    @HippoEssentialsGenerated(internalName = "ootb:title")
     public String getTitle() {
-        return getProperty("outofboxhippo:title");
+        return getProperty("ootb:title");
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:description")
+    @HippoEssentialsGenerated(internalName = "ootb:description")
     public String getDescription() {
-        return getProperty("outofboxhippo:description");
+        return getProperty("ootb:description");
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:link")
+    @HippoEssentialsGenerated(internalName = "ootb:link")
     public String getLink() {
-        return getProperty("outofboxhippo:link");
+        return getProperty("ootb:link");
     }
 }

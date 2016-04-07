@@ -22,29 +22,29 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:eventsdocument")
-@Node(jcrType="outofboxhippo:eventsdocument")
+@HippoEssentialsGenerated(internalName = "ootb:eventsdocument")
+@Node(jcrType="ootb:eventsdocument")
 public class EventsDocument extends HippoDocument {
 
     /**
      * The document type of the events document.
      */
-    public final static String DOCUMENT_TYPE = "outofboxhippo:eventsdocument";
+    public final static String DOCUMENT_TYPE = "ootb:eventsdocument";
 
-    private final static String TITLE = "outofboxhippo:title";
-    private final static String DATE = "outofboxhippo:date";
-    private final static String INTRODUCTION = "outofboxhippo:introduction";
-    private final static String IMAGE = "outofboxhippo:image";
-    private final static String CONTENT = "outofboxhippo:content";
-    private final static String LOCATION = "outofboxhippo:location";
-    private final static String END_DATE = "outofboxhippo:enddate";
+    private final static String TITLE = "ootb:title";
+    private final static String DATE = "ootb:date";
+    private final static String INTRODUCTION = "ootb:introduction";
+    private final static String IMAGE = "ootb:image";
+    private final static String CONTENT = "ootb:content";
+    private final static String LOCATION = "ootb:location";
+    private final static String END_DATE = "ootb:enddate";
 
     /**
      * Get the title of the document.
      *
      * @return the title
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+    @HippoEssentialsGenerated(internalName = "ootb:title")
     public String getTitle() {
         return getProperty(TITLE);
     }
@@ -54,7 +54,7 @@ public class EventsDocument extends HippoDocument {
      *
      * @return the (start) date
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:date")
+    @HippoEssentialsGenerated(internalName = "ootb:date")
     public Calendar getDate() {
         return getProperty(DATE);
     }
@@ -64,7 +64,7 @@ public class EventsDocument extends HippoDocument {
      *
      * @return the introduction
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:introduction")
+    @HippoEssentialsGenerated(internalName = "ootb:introduction")
     public String getIntroduction() {
         return getProperty(INTRODUCTION);
     }
@@ -74,7 +74,7 @@ public class EventsDocument extends HippoDocument {
      *
      * @return the image
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:image")
+    @HippoEssentialsGenerated(internalName = "ootb:image")
     public HippoGalleryImageSet getImage() {
         return getLinkedBean(IMAGE, HippoGalleryImageSet.class);
     }
@@ -84,7 +84,7 @@ public class EventsDocument extends HippoDocument {
      *
      * @return the content
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:content")
+    @HippoEssentialsGenerated(internalName = "ootb:content")
     public HippoHtml getContent() {
         return getHippoHtml(CONTENT);
     }
@@ -94,7 +94,7 @@ public class EventsDocument extends HippoDocument {
      *
      * @return the location
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:location")
+    @HippoEssentialsGenerated(internalName = "ootb:location")
     public String getLocation() {
         return getProperty(LOCATION);
     }
@@ -104,7 +104,7 @@ public class EventsDocument extends HippoDocument {
      *
      * @return the end date
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:enddate")
+    @HippoEssentialsGenerated(internalName = "ootb:enddate")
     public Calendar getEndDate() {
         return getProperty(END_DATE);
     }

@@ -2,38 +2,38 @@
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
-<'outofboxhippo'='http://www.onehippo.org/outofboxhippo/nt/1.0'>
+<'ootb'='http://www.onehippo.org/ootb/nt/1.0'>
 
-[outofboxhippo:account] > hippo:compound, hippostd:relaxed
+[ootb:account] > hippo:compound, hippostd:relaxed
   orderable
 
-[outofboxhippo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+[ootb:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
-[outofboxhippo:author] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:author] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:bannerdocument] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:bannerdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:blogpost] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:blogpost] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:contentdocument] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:contentdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:eventsdocument] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:eventsdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:faqdocument] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:faqdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:faqlistdocument] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:faqlistdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:newsdocument] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:newsdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 
-[outofboxhippo:video] > hippostd:relaxed, hippotranslation:translated, outofboxhippo:basedocument
+[ootb:video] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
   orderable
 

@@ -7,7 +7,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/base-layout.ftl</sv:value>
+      <sv:value>freemarker/ootb/base-layout.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="base-top-menu">
@@ -15,7 +15,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/base-top-menu.ftl</sv:value>
+      <sv:value>freemarker/ootb/base-top-menu.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="base-footer">
@@ -23,7 +23,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/base-footer.ftl</sv:value>
+      <sv:value>freemarker/ootb/base-footer.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="homepage-main">
@@ -31,7 +31,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/homepage-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/homepage-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="pagenotfound-main">
@@ -39,7 +39,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/pagenotfound-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/pagenotfound-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="eventspage-main">
@@ -47,7 +47,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/eventspage-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/eventspage-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="faq-main">
@@ -55,7 +55,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/faq-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/faq-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="newspage-main">
@@ -63,7 +63,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/newspage-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/newspage-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="search-main">
@@ -71,7 +71,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/search-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/search-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="contentlist-main-contentlist">
@@ -79,7 +79,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/contentlist-main-contentlist.ftl</sv:value>
+      <sv:value>freemarker/ootb/contentlist-main-contentlist.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="blog-author">
@@ -87,7 +87,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/author/blog-author.ftl</sv:value>
+      <sv:value>freemarker/ootb/author/blog-author.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="blog-main">
@@ -95,7 +95,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/blog/blog-main.ftl</sv:value>
+      <sv:value>freemarker/ootb/blog/blog-main.ftl</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="blog-detail">
@@ -103,7 +103,7 @@
       <sv:value>hst:template</sv:value>
     </sv:property>
     <sv:property sv:name="hst:renderpath" sv:type="String">
-      <sv:value>freemarker/outofboxhippo/blog/blog-detail.ftl</sv:value>
+      <sv:value>freemarker/ootb/blog/blog-detail.ftl</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

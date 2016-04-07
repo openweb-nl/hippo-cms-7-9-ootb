@@ -21,26 +21,26 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:bannerdocument")
-@Node(jcrType = "outofboxhippo:bannerdocument")
+@HippoEssentialsGenerated(internalName = "ootb:bannerdocument")
+@Node(jcrType = "ootb:bannerdocument")
 public class Banner extends BaseDocument {
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+	@HippoEssentialsGenerated(internalName = "ootb:title")
 	public String getTitle() {
-		return getProperty("outofboxhippo:title");
+		return getProperty("ootb:title");
 	}
 
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:content")
+	@HippoEssentialsGenerated(internalName = "ootb:content")
 	public HippoHtml getContent() {
-		return getHippoHtml("outofboxhippo:content");
+		return getHippoHtml("ootb:content");
 	}
 
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:image")
+	@HippoEssentialsGenerated(internalName = "ootb:image")
 	public HippoGalleryImageSet getImage() {
-		return getLinkedBean("outofboxhippo:image", HippoGalleryImageSet.class);
+		return getLinkedBean("ootb:image", HippoGalleryImageSet.class);
 	}
 
-	@HippoEssentialsGenerated(internalName = "outofboxhippo:link")
+	@HippoEssentialsGenerated(internalName = "ootb:link")
 	public HippoBean getLink() {
-		return getLinkedBean("outofboxhippo:link", HippoBean.class);
+		return getLinkedBean("ootb:link", HippoBean.class);
 	}
 }

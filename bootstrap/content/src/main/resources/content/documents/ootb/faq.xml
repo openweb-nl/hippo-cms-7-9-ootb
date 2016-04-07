@@ -33,7 +33,7 @@
     </sv:property>
     <sv:node sv:name="about-faq">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>outofboxhippo:faqlistdocument</sv:value>
+        <sv:value>ootb:faqlistdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
@@ -70,10 +70,10 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:title" sv:type="String">
+      <sv:property sv:name="ootb:title" sv:type="String">
         <sv:value>FAQ</sv:value>
       </sv:property>
-      <sv:node sv:name="outofboxhippo:description">
+      <sv:node sv:name="ootb:description">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
@@ -81,7 +81,7 @@
           <sv:value>&lt;p&gt;This is an example of FAQ document&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="outofboxhippo:faqdocuments">
+      <sv:node sv:name="ootb:faqdocuments">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -89,7 +89,7 @@
           <sv:value>9b993b22-ae8c-4bdc-833e-5a8ce41d68f5</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="outofboxhippo:faqdocuments">
+      <sv:node sv:name="ootb:faqdocuments">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -111,7 +111,7 @@
     </sv:node>
     <sv:node sv:name="about-faq">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>outofboxhippo:faqlistdocument</sv:value>
+        <sv:value>ootb:faqlistdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
@@ -150,10 +150,10 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:title" sv:type="String">
+      <sv:property sv:name="ootb:title" sv:type="String">
         <sv:value>FAQ</sv:value>
       </sv:property>
-      <sv:node sv:name="outofboxhippo:description">
+      <sv:node sv:name="ootb:description">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
@@ -161,7 +161,7 @@
           <sv:value>&lt;p&gt;This is an example of FAQ document&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="outofboxhippo:faqdocuments">
+      <sv:node sv:name="ootb:faqdocuments">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -169,7 +169,7 @@
           <sv:value>9b993b22-ae8c-4bdc-833e-5a8ce41d68f5</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="outofboxhippo:faqdocuments">
+      <sv:node sv:name="ootb:faqdocuments">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -180,7 +180,7 @@
     </sv:node>
     <sv:node sv:name="about-faq">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>outofboxhippo:faqlistdocument</sv:value>
+        <sv:value>ootb:faqlistdocument</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:referenceable</sv:value>
@@ -221,10 +221,10 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
       </sv:property>
-      <sv:property sv:name="outofboxhippo:title" sv:type="String">
+      <sv:property sv:name="ootb:title" sv:type="String">
         <sv:value>FAQ</sv:value>
       </sv:property>
-      <sv:node sv:name="outofboxhippo:description">
+      <sv:node sv:name="ootb:description">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippostd:html</sv:value>
         </sv:property>
@@ -232,7 +232,7 @@
           <sv:value>&lt;p&gt;This is an example of FAQ document&lt;/p&gt;</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="outofboxhippo:faqdocuments">
+      <sv:node sv:name="ootb:faqdocuments">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -240,7 +240,7 @@
           <sv:value>9b993b22-ae8c-4bdc-833e-5a8ce41d68f5</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="outofboxhippo:faqdocuments">
+      <sv:node sv:name="ootb:faqdocuments">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -296,7 +296,7 @@
       </sv:property>
       <sv:node sv:name="faq-1">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:faqdocument</sv:value>
+          <sv:value>ootb:faqdocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
@@ -333,10 +333,10 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:question" sv:type="String">
+        <sv:property sv:name="ootb:question" sv:type="String">
           <sv:value>What is this?</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:answer">
+        <sv:node sv:name="ootb:answer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -358,7 +358,7 @@
       </sv:node>
       <sv:node sv:name="faq-1">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:faqdocument</sv:value>
+          <sv:value>ootb:faqdocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
@@ -397,10 +397,10 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:question" sv:type="String">
+        <sv:property sv:name="ootb:question" sv:type="String">
           <sv:value>What is this?</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:answer">
+        <sv:node sv:name="ootb:answer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -411,7 +411,7 @@
       </sv:node>
       <sv:node sv:name="faq-1">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:faqdocument</sv:value>
+          <sv:value>ootb:faqdocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
@@ -452,10 +452,10 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:question" sv:type="String">
+        <sv:property sv:name="ootb:question" sv:type="String">
           <sv:value>What is this?</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:answer">
+        <sv:node sv:name="ootb:answer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -478,7 +478,7 @@
       </sv:property>
       <sv:node sv:name="faq-2">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:faqdocument</sv:value>
+          <sv:value>ootb:faqdocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
@@ -517,10 +517,10 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:question" sv:type="String">
+        <sv:property sv:name="ootb:question" sv:type="String">
           <sv:value>What is this?</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:answer">
+        <sv:node sv:name="ootb:answer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -542,7 +542,7 @@
       </sv:node>
       <sv:node sv:name="faq-2">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:faqdocument</sv:value>
+          <sv:value>ootb:faqdocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
@@ -579,10 +579,10 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:question" sv:type="String">
+        <sv:property sv:name="ootb:question" sv:type="String">
           <sv:value>What is this?</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:answer">
+        <sv:node sv:name="ootb:answer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -593,7 +593,7 @@
       </sv:node>
       <sv:node sv:name="faq-2">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:faqdocument</sv:value>
+          <sv:value>ootb:faqdocument</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
@@ -634,10 +634,10 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:question" sv:type="String">
+        <sv:property sv:name="ootb:question" sv:type="String">
           <sv:value>What is this?</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:answer">
+        <sv:node sv:name="ootb:answer">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>

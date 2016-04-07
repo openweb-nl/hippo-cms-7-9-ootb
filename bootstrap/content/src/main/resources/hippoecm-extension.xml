@@ -4,7 +4,7 @@
     <sv:value>hippo:initializefolder</sv:value>
   </sv:property>
 
-  <sv:node sv:name="outofboxhippo-content">
+  <sv:node sv:name="ootb-content">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -20,7 +20,7 @@
   </sv:node>
 
   <!-- Content -->
-  <sv:node sv:name="outofboxhippo-documents">
+  <sv:node sv:name="ootb-documents">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -36,7 +36,7 @@
   </sv:node>
 
   <!-- Gallery -->
-  <sv:node sv:name="outofboxhippo-gallery">
+  <sv:node sv:name="ootb-gallery">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -51,7 +51,7 @@
     </sv:property>
   </sv:node>
 
-<sv:node sv:name="out-of-box-hippo-content-gallery-outofboxhippo-banners">
+<sv:node sv:name="out-of-box-hippo-content-gallery-ootb-banners">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -59,10 +59,10 @@
       <sv:value>30501.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/gallery/outofboxhippo/banners.xml</sv:value>
+      <sv:value>content/gallery/ootb/banners.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/gallery/outofboxhippo</sv:value>
+      <sv:value>/content/gallery/ootb</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-content-documents-administration">
@@ -93,7 +93,7 @@
       <sv:value>/content/documents/administration</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-banners">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-banners">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -101,13 +101,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/banners.xml</sv:value>
+      <sv:value>content/documents/ootb/banners.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-faq">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-faq">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -115,13 +115,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/faq.xml</sv:value>
+      <sv:value>content/documents/ootb/faq.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-gallery-outofboxhippo-samples">
+  <sv:node sv:name="out-of-box-hippo-content-gallery-ootb-samples">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -129,13 +129,13 @@
       <sv:value>30501.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/gallery/outofboxhippo/samples.xml</sv:value>
+      <sv:value>content/gallery/ootb/samples.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/gallery/outofboxhippo</sv:value>
+      <sv:value>/content/gallery/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-events">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-events">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -143,13 +143,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/events.xml</sv:value>
+      <sv:value>content/documents/ootb/events.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-news">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-news">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -157,13 +157,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/news.xml</sv:value>
+      <sv:value>content/documents/ootb/news.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-content">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-content">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -171,13 +171,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/content.xml</sv:value>
+      <sv:value>content/documents/ootb/content.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-videos">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-videos">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -185,13 +185,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/videos.xml</sv:value>
+      <sv:value>content/documents/ootb/videos.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-blogFacets">
+<sv:node sv:name="out-of-box-hippo-content-documents-ootb-blogFacets">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -199,13 +199,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/blogFacets.xml</sv:value>
+      <sv:value>content/documents/ootb/blogFacets.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-polls">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-polls">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -213,13 +213,13 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/polls.xml</sv:value>
+      <sv:value>content/documents/ootb/polls.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-content-documents-outofboxhippo-blog">
+  <sv:node sv:name="out-of-box-hippo-content-documents-ootb-blog">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -227,10 +227,10 @@
       <sv:value>30401.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/documents/outofboxhippo/blog.xml</sv:value>
+      <sv:value>content/documents/ootb/blog.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/documents/outofboxhippo</sv:value>
+      <sv:value>/content/documents/ootb</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-content-documents-administration-robots">

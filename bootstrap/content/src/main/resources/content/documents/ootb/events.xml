@@ -85,7 +85,7 @@
         </sv:node>
         <sv:node sv:name="breakfast">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:eventsdocument</sv:value>
+            <sv:value>ootb:eventsdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -130,25 +130,25 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:date" sv:type="Date">
+          <sv:property sv:name="ootb:date" sv:type="Date">
             <sv:value>2013-11-12T08:00:00.000+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:documenttype" sv:type="String">
+          <sv:property sv:name="ootb:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:enddate" sv:type="Date">
+          <sv:property sv:name="ootb:enddate" sv:type="Date">
             <sv:value>2017-04-06T14:31:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Start the day with a nice breakfast.</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:location" sv:type="String">
+          <sv:property sv:name="ootb:location" sv:type="String">
             <sv:value>Room 101</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>Breakfast</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -162,7 +162,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:image">
+          <sv:node sv:name="ootb:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
@@ -221,7 +221,7 @@
         </sv:node>
         <sv:node sv:name="introduction-speech">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:eventsdocument</sv:value>
+            <sv:value>ootb:eventsdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -266,25 +266,25 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:date" sv:type="Date">
+          <sv:property sv:name="ootb:date" sv:type="Date">
             <sv:value>2013-11-12T10:00:00.000+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:documenttype" sv:type="String">
+          <sv:property sv:name="ootb:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:enddate" sv:type="Date">
+          <sv:property sv:name="ootb:enddate" sv:type="Date">
             <sv:value>2017-04-06T14:31:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>After breakfast there will be an introductory speech.</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:location" sv:type="String">
+          <sv:property sv:name="ootb:location" sv:type="String">
             <sv:value>Room 400</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>Introduction speech</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -298,7 +298,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:image">
+          <sv:node sv:name="ootb:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
@@ -323,7 +323,7 @@
         </sv:property>
         <sv:node sv:name="workshop">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:eventsdocument</sv:value>
+            <sv:value>ootb:eventsdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -368,25 +368,25 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:date" sv:type="Date">
+          <sv:property sv:name="ootb:date" sv:type="Date">
             <sv:value>2013-11-12T13:00:00.000+01:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:documenttype" sv:type="String">
+          <sv:property sv:name="ootb:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:enddate" sv:type="Date">
+          <sv:property sv:name="ootb:enddate" sv:type="Date">
             <sv:value>2017-04-06T14:31:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Workshop starts at 1:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:location" sv:type="String">
+          <sv:property sv:name="ootb:location" sv:type="String">
             <sv:value>Room 600</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>Workshop</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -401,7 +401,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:image">
+          <sv:node sv:name="ootb:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>

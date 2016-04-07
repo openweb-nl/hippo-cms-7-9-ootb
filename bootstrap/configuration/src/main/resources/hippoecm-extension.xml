@@ -5,7 +5,7 @@
   </sv:property>
 
   <!-- Autoexport module configuration -->
-  <sv:node sv:name="outofboxhippo-autoexport-module">
+  <sv:node sv:name="ootb-autoexport-module">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -21,7 +21,7 @@
   </sv:node>
 
   <!-- Eventlogcleanup module configuration -->
-  <sv:node sv:name="outofboxhippo-eventlogcleanup-module">
+  <sv:node sv:name="ootb-eventlogcleanup-module">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -37,7 +37,7 @@
   </sv:node>
 
   <!-- Document types -->
-  <sv:node sv:name="outofboxhippo">
+  <sv:node sv:name="ootb">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -45,13 +45,13 @@
       <sv:value>30000.1</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:namespace" sv:type="String">
-      <sv:value>http://www.onehippo.org/outofboxhippo/nt/1.0</sv:value>
+      <sv:value>http://www.onehippo.org/ootb/nt/1.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:nodetypesresource" sv:type="String">
       <sv:value>namespaces/out-of-box-hippo.cnd</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-namespace">
+  <sv:node sv:name="ootb-namespace">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -65,7 +65,7 @@
       <sv:value>/hippo:namespaces</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-basedocument-namespace">
+  <sv:node sv:name="ootb-basedocument-namespace">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -76,12 +76,12 @@
       <sv:value>namespaces/out-of-box-hippo/basedocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
 
   <!-- hst configuration nodes -->
-  <sv:node sv:name="outofboxhippo-hst-hosts">
+  <sv:node sv:name="ootb-hst-hosts">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -96,7 +96,7 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-hst-channels">
+  <sv:node sv:name="ootb-hst-channels">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -110,7 +110,7 @@
       <sv:value>/hst:hst</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-hst-sites">
+  <sv:node sv:name="ootb-hst-sites">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -124,7 +124,7 @@
       <sv:value>/hst:hst</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-hst-configurations">
+  <sv:node sv:name="ootb-hst-configurations">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -141,7 +141,7 @@
 
   <!-- Website -->
   <!-- workspace configuration nodes -->
-  <sv:node sv:name="outofboxhippo-workspace">
+  <sv:node sv:name="ootb-workspace">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -152,11 +152,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/workspace.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-workspace-sitemap">
+  <sv:node sv:name="ootb-workspace-sitemap">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -167,11 +167,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/workspace/sitemap.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:workspace</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:workspace</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-workspace-pages">
+  <sv:node sv:name="ootb-workspace-pages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -182,11 +182,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/workspace/pages.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:workspace</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:workspace</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-workspace-sitemenus">
+  <sv:node sv:name="ootb-workspace-sitemenus">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -197,11 +197,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/workspace/sitemenus.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:workspace</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:workspace</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-workspace-containers">
+  <sv:node sv:name="ootb-workspace-containers">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -212,12 +212,12 @@
       <sv:value>hst/configurations/out-of-box-hippo/workspace/containers.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:workspace</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:workspace</sv:value>
     </sv:property>
   </sv:node>
 
   <!-- NON workspace configuration for website -->
-  <sv:node sv:name="outofboxhippo-sitemap">
+  <sv:node sv:name="ootb-sitemap">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -228,10 +228,10 @@
       <sv:value>hst/configurations/out-of-box-hippo/sitemap.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-sitemenus">
+  <sv:node sv:name="ootb-sitemenus">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -242,11 +242,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/sitemenus.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-configuration-prototypepages">
+  <sv:node sv:name="ootb-configuration-prototypepages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -257,11 +257,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/prototypepages.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-configuration-abstractpages">
+  <sv:node sv:name="ootb-configuration-abstractpages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -272,11 +272,11 @@
       <sv:value>hst/configurations/out-of-box-hippo/abstractpages.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-configuration-pages">
+  <sv:node sv:name="ootb-configuration-pages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -287,10 +287,10 @@
       <sv:value>hst/configurations/out-of-box-hippo/pages.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-configuration-components">
+  <sv:node sv:name="ootb-configuration-components">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -301,10 +301,10 @@
       <sv:value>hst/configurations/out-of-box-hippo/components.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-configuration-templates">
+  <sv:node sv:name="ootb-configuration-templates">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -315,10 +315,10 @@
       <sv:value>hst/configurations/out-of-box-hippo/templates.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-configuration-catalog">
+  <sv:node sv:name="ootb-configuration-catalog">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -329,12 +329,12 @@
       <sv:value>hst/configurations/out-of-box-hippo/catalog.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb</sv:value>
     </sv:property>
   </sv:node>
 
   <!-- Security and default available users -->
-  <sv:node sv:name="outofboxhippo-user-editor">
+  <sv:node sv:name="ootb-user-editor">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -348,7 +348,7 @@
       <sv:value>33000.2</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-user-author">
+  <sv:node sv:name="ootb-user-author">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -362,7 +362,7 @@
       <sv:value>33000.3</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-user-liveuser">
+  <sv:node sv:name="ootb-user-liveuser">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -376,7 +376,7 @@
       <sv:value>33000.4</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-user-previewuser">
+  <sv:node sv:name="ootb-user-previewuser">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -390,7 +390,7 @@
       <sv:value>33000.5</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-user-configuser">
+  <sv:node sv:name="ootb-user-configuser">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -404,7 +404,7 @@
       <sv:value>33000.6</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-user-sitewriter">
+  <sv:node sv:name="ootb-user-sitewriter">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -418,7 +418,7 @@
       <sv:value>33000.7</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-groups-author-add">
+  <sv:node sv:name="ootb-groups-author-add">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -432,7 +432,7 @@
       <sv:value>33000.8</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-groups-editor-add">
+  <sv:node sv:name="ootb-groups-editor-add">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -446,7 +446,7 @@
       <sv:value>33000.9</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-groups-webmaster-add">
+  <sv:node sv:name="ootb-groups-webmaster-add">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -461,7 +461,7 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-group-sitewriters">
+  <sv:node sv:name="ootb-group-sitewriters">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -475,7 +475,7 @@
       <sv:value>33001.1</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-group-liveusers">
+  <sv:node sv:name="ootb-group-liveusers">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -489,7 +489,7 @@
       <sv:value>33001.2</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-group-previewusers">
+  <sv:node sv:name="ootb-group-previewusers">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -504,7 +504,7 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-sitewriters-readfolders">
+  <sv:node sv:name="ootb-sitewriters-readfolders">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -519,7 +519,7 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-previewusers-documents">
+  <sv:node sv:name="ootb-previewusers-documents">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -534,7 +534,7 @@
     </sv:property>
   </sv:node>
 
-  <sv:node sv:name="outofboxhippo-liveusers-documents">
+  <sv:node sv:name="ootb-liveusers-documents">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -548,7 +548,7 @@
       <sv:value>33001.6</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="outofboxhippo-configuser-read-everywhere">
+  <sv:node sv:name="ootb-configuser-read-everywhere">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -563,7 +563,7 @@
     </sv:property>
   </sv:node>
 
-<sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-pagenotfound">
+<sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-pagenotfound">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -571,10 +571,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/pagenotfound.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/pagenotfound.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-hst-default-hst-templates">
@@ -605,7 +605,7 @@
       <sv:value>/hst:hst/hst:configurations/hst:default</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-abstractpages-base">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-abstractpages-base">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -613,10 +613,10 @@
       <sv:value>30074.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/abstractpages/base.xml</sv:value>
+      <sv:value>hst/configurations/ootb/abstractpages/base.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:abstractpages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:abstractpages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-banner-document">
@@ -647,7 +647,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-bannerdocument">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-bannerdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -655,13 +655,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/bannerdocument.xml</sv:value>
+      <sv:value>namespaces/ootb/bannerdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-homepage">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-homepage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -669,10 +669,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/homepage.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/homepage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-faq-list-document-folder">
@@ -689,7 +689,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-faqpage">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-faqpage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -697,13 +697,13 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/faqpage.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/faqpage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-faqlist">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-faqlist">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -711,10 +711,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/faqlist.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/faqlist.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-events-document">
@@ -745,7 +745,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-eventspage">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-eventspage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -753,10 +753,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/eventspage.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/eventspage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-faq-list-document">
@@ -773,7 +773,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-faqdocument">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-faqdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -781,13 +781,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/faqdocument.xml</sv:value>
+      <sv:value>namespaces/ootb/faqdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-eventslist">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-eventslist">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -795,10 +795,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/eventslist.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/eventslist.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-events-folder">
@@ -815,7 +815,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-faqlistdocument">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-faqlistdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -823,13 +823,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/faqlistdocument.xml</sv:value>
+      <sv:value>namespaces/ootb/faqlistdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-eventsdocument">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-eventsdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -837,10 +837,10 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/eventsdocument.xml</sv:value>
+      <sv:value>namespaces/ootb/eventsdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-faq-document">
@@ -885,7 +885,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-newsdocument">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-newsdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -893,13 +893,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/newsdocument.xml</sv:value>
+      <sv:value>namespaces/ootb/newsdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-newspage">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-newspage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -907,13 +907,13 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/newspage.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/newspage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-newslist">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-newslist">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -921,13 +921,13 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/newslist.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/newslist.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-search">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-search">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -935,13 +935,13 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/search.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/search.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-contentpage">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-contentpage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -949,10 +949,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/contentpage.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/contentpage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-content-document">
@@ -969,7 +969,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-contentdocument">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-contentdocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -977,10 +977,10 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/contentdocument.xml</sv:value>
+      <sv:value>namespaces/ootb/contentdocument.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-content-folder">
@@ -997,7 +997,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-contentlist">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-contentlist">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1005,13 +1005,13 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/contentlist.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/contentlist.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-video">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-video">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1019,10 +1019,10 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/video.xml</sv:value>
+      <sv:value>namespaces/ootb/video.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-video-document">
@@ -1095,7 +1095,7 @@
       <sv:value>/</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-bloglist">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-bloglist">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1103,10 +1103,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/bloglist.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/bloglist.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-poll-document">
@@ -1123,7 +1123,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-account">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-account">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1131,13 +1131,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/account.xml</sv:value>
+      <sv:value>namespaces/ootb/account.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-author">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-author">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1145,13 +1145,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/author.xml</sv:value>
+      <sv:value>namespaces/ootb/author.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-outofboxhippo-blogpost">
+  <sv:node sv:name="out-of-box-hippo-hippo-namespaces-ootb-blogpost">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1159,13 +1159,13 @@
       <sv:value>30052.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>namespaces/outofboxhippo/blogpost.xml</sv:value>
+      <sv:value>namespaces/ootb/blogpost.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hippo:namespaces/outofboxhippo</sv:value>
+      <sv:value>/hippo:namespaces/ootb</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-blogpage">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-blogpage">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1173,13 +1173,13 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/blogpage.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/blogpage.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-outofboxhippo-hst-pages-blog">
+  <sv:node sv:name="out-of-box-hippo-hst-hst-hst-configurations-ootb-hst-pages-blog">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -1187,10 +1187,10 @@
       <sv:value>30076.0</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/outofboxhippo/pages/blog.xml</sv:value>
+      <sv:value>hst/configurations/ootb/pages/blog.xml</sv:value>
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/outofboxhippo/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/ootb/hst:pages</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="out-of-box-hippo-hippo-configuration-hippo-queries-hippo-templates-new-blog-folder">

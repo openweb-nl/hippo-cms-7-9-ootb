@@ -85,7 +85,7 @@
         </sv:node>
         <sv:node sv:name="the-medusa-news">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:newsdocument</sv:value>
+            <sv:value>ootb:newsdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -130,28 +130,28 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:author" sv:type="String">
+          <sv:property sv:name="ootb:author" sv:type="String">
             <sv:value>OBO</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:date" sv:type="Date">
+          <sv:property sv:name="ootb:date" sv:type="Date">
             <sv:value>2016-04-06T14:31:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:documenttype" sv:type="String">
+          <sv:property sv:name="ootb:documenttype" sv:type="String">
             <sv:value>news</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:location" sv:type="String">
+          <sv:property sv:name="ootb:location" sv:type="String">
             <sv:value>AMS</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:source" sv:type="String">
+          <sv:property sv:name="ootb:source" sv:type="String">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>The medusa news</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -188,7 +188,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:image">
+          <sv:node sv:name="ootb:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
@@ -214,7 +214,7 @@
         </sv:property>
         <sv:node sv:name="2013-harvest">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:newsdocument</sv:value>
+            <sv:value>ootb:newsdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -259,28 +259,28 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:author" sv:type="String">
+          <sv:property sv:name="ootb:author" sv:type="String">
             <sv:value>obo</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:date" sv:type="Date">
+          <sv:property sv:name="ootb:date" sv:type="Date">
             <sv:value>2016-04-06T14:31:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:documenttype" sv:type="String">
+          <sv:property sv:name="ootb:documenttype" sv:type="String">
             <sv:value>news</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:location" sv:type="String">
+          <sv:property sv:name="ootb:location" sv:type="String">
             <sv:value>AMS</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:source" sv:type="String">
+          <sv:property sv:name="ootb:source" sv:type="String">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>2013 harvest</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -313,7 +313,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:image">
+          <sv:node sv:name="ootb:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>
@@ -350,7 +350,7 @@
         </sv:property>
         <sv:node sv:name="the-gastropoda-news">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:newsdocument</sv:value>
+            <sv:value>ootb:newsdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -395,28 +395,28 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:author" sv:type="String">
+          <sv:property sv:name="ootb:author" sv:type="String">
             <sv:value>OBO</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:date" sv:type="Date">
+          <sv:property sv:name="ootb:date" sv:type="Date">
             <sv:value>2016-04-06T14:31:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:documenttype" sv:type="String">
+          <sv:property sv:name="ootb:documenttype" sv:type="String">
             <sv:value>news</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:location" sv:type="String">
+          <sv:property sv:name="ootb:location" sv:type="String">
             <sv:value>AMS</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:source" sv:type="String">
+          <sv:property sv:name="ootb:source" sv:type="String">
             <sv:value/>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>The gastropoda news</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -449,7 +449,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:image">
+          <sv:node sv:name="ootb:image">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippogallerypicker:imagelink</sv:value>
             </sv:property>

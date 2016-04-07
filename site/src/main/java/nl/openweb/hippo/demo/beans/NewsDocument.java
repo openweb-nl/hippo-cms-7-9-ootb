@@ -22,30 +22,30 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:newsdocument")
-@Node(jcrType="outofboxhippo:newsdocument")
+@HippoEssentialsGenerated(internalName = "ootb:newsdocument")
+@Node(jcrType="ootb:newsdocument")
 public class NewsDocument extends HippoDocument {
 
     /**
      * The document type of the news document.
      */
-    public final static String DOCUMENT_TYPE = "outofboxhippo:newsdocument";
+    public final static String DOCUMENT_TYPE = "ootb:newsdocument";
 
-    private final static String TITLE = "outofboxhippo:title";
-    private final static String DATE = "outofboxhippo:date";
-    private final static String INTRODUCTION = "outofboxhippo:introduction";
-    private final static String IMAGE = "outofboxhippo:image";
-    private final static String CONTENT = "outofboxhippo:content";
-    private final static String LOCATION = "outofboxhippo:location";
-    private final static String AUTHOR = "outofboxhippo:author";
-    private final static String SOURCE = "outofboxhippo:source";
+    private final static String TITLE = "ootb:title";
+    private final static String DATE = "ootb:date";
+    private final static String INTRODUCTION = "ootb:introduction";
+    private final static String IMAGE = "ootb:image";
+    private final static String CONTENT = "ootb:content";
+    private final static String LOCATION = "ootb:location";
+    private final static String AUTHOR = "ootb:author";
+    private final static String SOURCE = "ootb:source";
 
     /**
      * Get the title of the document.
      *
      * @return the title
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+    @HippoEssentialsGenerated(internalName = "ootb:title")
     public String getTitle() {
         return getProperty(TITLE);
     }
@@ -55,7 +55,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the date
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:date")
+    @HippoEssentialsGenerated(internalName = "ootb:date")
     public Calendar getDate() {
         return getProperty(DATE);
     }
@@ -65,7 +65,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the introduction
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:introduction")
+    @HippoEssentialsGenerated(internalName = "ootb:introduction")
     public String getIntroduction() {
         return getProperty(INTRODUCTION);
     }
@@ -75,7 +75,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the image
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:image")
+    @HippoEssentialsGenerated(internalName = "ootb:image")
     public HippoGalleryImageSet getImage() {
         return getLinkedBean(IMAGE, HippoGalleryImageSet.class);
     }
@@ -85,7 +85,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the content
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:content")
+    @HippoEssentialsGenerated(internalName = "ootb:content")
     public HippoHtml getContent() {
         return getHippoHtml(CONTENT);
     }
@@ -95,7 +95,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the location
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:location")
+    @HippoEssentialsGenerated(internalName = "ootb:location")
     public String getLocation() {
         return getProperty(LOCATION);
     }
@@ -105,7 +105,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the author
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:author")
+    @HippoEssentialsGenerated(internalName = "ootb:author")
     public String getAuthor() {
         return getProperty(AUTHOR);
     }
@@ -115,7 +115,7 @@ public class NewsDocument extends HippoDocument {
      *
      * @return the source
      */
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:source")
+    @HippoEssentialsGenerated(internalName = "ootb:source")
     public String getSource() {
         return getProperty(SOURCE);
     }

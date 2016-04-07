@@ -11,7 +11,7 @@
   <name>My Hippo Project</name>
   <description>My Hippo Project</description>
   <groupId>nl.openweb.hippo.demo</groupId>
-  <artifactId>out-of-box-hippo</artifactId>
+  <artifactId>hippo-cms-7-9-ootb</artifactId>
   <version>7.9.8</version>
   <packaging>pom</packaging>
 
@@ -335,7 +335,7 @@
             <artifactId>docker-maven-plugin</artifactId>
             <version>0.4.3</version>
             <configuration>
-              <imageName>openweb/hippo-out-of-box</imageName>
+              <imageName>openweb/hippo-cms-ootb</imageName>
               <dockerDirectory>src/main/docker</dockerDirectory>
               <resources>
                 <resource>

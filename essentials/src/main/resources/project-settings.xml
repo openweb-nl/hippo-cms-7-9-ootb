@@ -2,7 +2,7 @@
 <project>
     <name>project-settings</name>
     <confirmParams>false</confirmParams>
-    <projectNamespace>outofboxhippo</projectNamespace>
+    <projectNamespace>ootb</projectNamespace>
     <selectedBeansPackage>nl.openweb.hippo.demo.beans</selectedBeansPackage>
     <selectedComponentsPackage>nl.openweb.hippo.demo.components</selectedComponentsPackage>
     <selectedRestPackage>nl.openweb.hippo.demo.rest</selectedRestPackage>

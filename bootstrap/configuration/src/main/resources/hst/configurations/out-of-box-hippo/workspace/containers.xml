@@ -83,14 +83,14 @@
         </sv:property>
         <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
           <sv:value>on</sv:value>
-          <sv:value>outofboxhippo:eventsdocument</sv:value>
+          <sv:value>ootb:eventsdocument</sv:value>
           <sv:value/>
           <sv:value>desc</sv:value>
           <sv:value>off</sv:value>
           <sv:value>on</sv:value>
           <sv:value/>
           <sv:value>10</sv:value>
-          <sv:value>outofboxhippo:enddate</sv:value>
+          <sv:value>ootb:enddate</sv:value>
         </sv:property>
         <sv:property sv:name="hst:template" sv:type="String">
           <sv:value>eventslist-main-eventslist</sv:value>
@@ -175,14 +175,14 @@
         </sv:property>
         <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
           <sv:value>on</sv:value>
-          <sv:value>outofboxhippo:newsdocument</sv:value>
+          <sv:value>ootb:newsdocument</sv:value>
           <sv:value/>
           <sv:value>desc</sv:value>
           <sv:value>off</sv:value>
           <sv:value>on</sv:value>
           <sv:value/>
           <sv:value>10</sv:value>
-          <sv:value>outofboxhippo:date</sv:value>
+          <sv:value>ootb:date</sv:value>
           <sv:value>on</sv:value>
         </sv:property>
         <sv:property sv:name="hst:template" sv:type="String">
@@ -225,7 +225,7 @@
           <sv:value>pageSize</sv:value>
         </sv:property>
         <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-          <sv:value>outofboxhippo:contentdocument</sv:value>
+          <sv:value>ootb:contentdocument</sv:value>
           <sv:value/>
           <sv:value>desc</sv:value>
           <sv:value>off</sv:value>
@@ -273,7 +273,7 @@
           <sv:value>path</sv:value>
         </sv:property>
         <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-          <sv:value>outofboxhippo:blogpost</sv:value>
+          <sv:value>ootb:blogpost</sv:value>
           <sv:value/>
           <sv:value>desc</sv:value>
           <sv:value>on</sv:value>

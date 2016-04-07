@@ -52,7 +52,7 @@
       </sv:property>
       <sv:node sv:name="Hippo Author">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:author</sv:value>
+          <sv:value>ootb:author</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
@@ -97,13 +97,13 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:fullname" sv:type="String">
+        <sv:property sv:name="ootb:fullname" sv:type="String">
           <sv:value>Hippo Author</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:role" sv:type="String">
+        <sv:property sv:name="ootb:role" sv:type="String">
           <sv:value>Owner</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:content">
+        <sv:node sv:name="ootb:content">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -122,18 +122,18 @@
           &lt;/html&gt;</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="outofboxhippo:accounts">
+        <sv:node sv:name="ootb:accounts">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:account</sv:value>
+            <sv:value>ootb:account</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:link" sv:type="String">
+          <sv:property sv:name="ootb:link" sv:type="String">
             <sv:value>https://github.com/onehippo</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:type" sv:type="String">
+          <sv:property sv:name="ootb:type" sv:type="String">
             <sv:value>github</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="outofboxhippo:image">
+        <sv:node sv:name="ootb:image">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
@@ -144,14 +144,14 @@
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
-        <sv:node sv:name="outofboxhippo:accounts">
+        <sv:node sv:name="ootb:accounts">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:account</sv:value>
+            <sv:value>ootb:account</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:link" sv:type="String">
+          <sv:property sv:name="ootb:link" sv:type="String">
             <sv:value>https://twitter.com/onehippo</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:type" sv:type="String">
+          <sv:property sv:name="ootb:type" sv:type="String">
             <sv:value>twitter</sv:value>
           </sv:property>
         </sv:node>
@@ -181,7 +181,7 @@
       </sv:node>
       <sv:node sv:name="hippo-essentials-author">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>outofboxhippo:author</sv:value>
+          <sv:value>ootb:author</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
@@ -226,13 +226,13 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:fullname" sv:type="String">
+        <sv:property sv:name="ootb:fullname" sv:type="String">
           <sv:value>Hippo Essentials Author</sv:value>
         </sv:property>
-        <sv:property sv:name="outofboxhippo:role" sv:type="String">
+        <sv:property sv:name="ootb:role" sv:type="String">
           <sv:value>Owner</sv:value>
         </sv:property>
-        <sv:node sv:name="outofboxhippo:content">
+        <sv:node sv:name="ootb:content">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippostd:html</sv:value>
           </sv:property>
@@ -251,18 +251,18 @@
           &lt;/html&gt;</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="outofboxhippo:accounts">
+        <sv:node sv:name="ootb:accounts">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:account</sv:value>
+            <sv:value>ootb:account</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:link" sv:type="String">
+          <sv:property sv:name="ootb:link" sv:type="String">
             <sv:value>https://github.com/onehippo</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:type" sv:type="String">
+          <sv:property sv:name="ootb:type" sv:type="String">
             <sv:value>github</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="outofboxhippo:image">
+        <sv:node sv:name="ootb:image">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
@@ -273,14 +273,14 @@
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
-        <sv:node sv:name="outofboxhippo:accounts">
+        <sv:node sv:name="ootb:accounts">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:account</sv:value>
+            <sv:value>ootb:account</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:link" sv:type="String">
+          <sv:property sv:name="ootb:link" sv:type="String">
             <sv:value>https://twitter.com/onehippo</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:type" sv:type="String">
+          <sv:property sv:name="ootb:type" sv:type="String">
             <sv:value>twitter</sv:value>
           </sv:property>
         </sv:node>
@@ -342,7 +342,7 @@
         </sv:property>
         <sv:node sv:name="first-blog-post">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:blogpost</sv:value>
+            <sv:value>ootb:blogpost</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -387,23 +387,23 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:authornames" sv:type="String" sv:multiple="true">
+          <sv:property sv:name="ootb:authornames" sv:type="String" sv:multiple="true">
             <sv:value>Hippo Author</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:categories" sv:type="String" sv:multiple="true">
+          <sv:property sv:name="ootb:categories" sv:type="String" sv:multiple="true">
             <sv:value>cms</sv:value>
             <sv:value>life</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:publicationdate" sv:type="Date">
+          <sv:property sv:name="ootb:publicationdate" sv:type="Date">
             <sv:value>2016-04-06T14:33:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>First blog post</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -461,7 +461,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:authors">
+          <sv:node sv:name="ootb:authors">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
@@ -495,7 +495,7 @@
         </sv:property>
         <sv:node sv:name="second-blog-post">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>outofboxhippo:blogpost</sv:value>
+            <sv:value>ootb:blogpost</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:referenceable</sv:value>
@@ -540,23 +540,23 @@
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:authornames" sv:type="String" sv:multiple="true">
+          <sv:property sv:name="ootb:authornames" sv:type="String" sv:multiple="true">
             <sv:value>Hippo Essentials Author</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:categories" sv:type="String" sv:multiple="true">
+          <sv:property sv:name="ootb:categories" sv:type="String" sv:multiple="true">
             <sv:value>cms</sv:value>
             <sv:value>life</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:introduction" sv:type="String">
+          <sv:property sv:name="ootb:introduction" sv:type="String">
             <sv:value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:publicationdate" sv:type="Date">
+          <sv:property sv:name="ootb:publicationdate" sv:type="Date">
             <sv:value>2016-04-06T14:33:00.000+02:00</sv:value>
           </sv:property>
-          <sv:property sv:name="outofboxhippo:title" sv:type="String">
+          <sv:property sv:name="ootb:title" sv:type="String">
             <sv:value>Second blog post</sv:value>
           </sv:property>
-          <sv:node sv:name="outofboxhippo:content">
+          <sv:node sv:name="ootb:content">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippostd:html</sv:value>
             </sv:property>
@@ -614,7 +614,7 @@
           &lt;/html&gt;</sv:value>
             </sv:property>
           </sv:node>
-          <sv:node sv:name="outofboxhippo:authors">
+          <sv:node sv:name="ootb:authors">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hippo:mirror</sv:value>
             </sv:property>

@@ -19,17 +19,17 @@ import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:faqdocument")
-@Node(jcrType = "outofboxhippo:faqdocument")
+@HippoEssentialsGenerated(internalName = "ootb:faqdocument")
+@Node(jcrType = "ootb:faqdocument")
 public class FaqDocument extends BaseDocument {
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:question")
+    @HippoEssentialsGenerated(internalName = "ootb:question")
     public String getQuestion() {
-        return getProperty("outofboxhippo:question");
+        return getProperty("ootb:question");
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:answer")
+    @HippoEssentialsGenerated(internalName = "ootb:answer")
     public HippoHtml getAnswer() {
-        return getHippoHtml("outofboxhippo:answer");
+        return getHippoHtml("ootb:answer");
     }
 }

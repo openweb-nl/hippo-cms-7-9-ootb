@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>nl.openweb.hippo.demo</groupId>
-    <artifactId>out-of-box-hippo</artifactId>
+    <artifactId>hippo-cms-7-9-ootb</artifactId>
     <version>7.9.8</version>
   </parent>
   <artifactId>out-of-box-hippo-site</artifactId>

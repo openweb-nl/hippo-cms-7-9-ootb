@@ -23,28 +23,28 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.components.model.Authors;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 
-@HippoEssentialsGenerated(internalName = "outofboxhippo:blogpost")
-@Node(jcrType = "outofboxhippo:blogpost")
+@HippoEssentialsGenerated(internalName = "ootb:blogpost")
+@Node(jcrType = "ootb:blogpost")
 public class Blogpost extends HippoDocument implements Authors {
 
-    public static final String TITLE = "outofboxhippo:title";
-    public static final String INTRODUCTION = "outofboxhippo:introduction";
-    public static final String CONTENT = "outofboxhippo:content";
-    public static final String PUBLICATION_DATE = "outofboxhippo:publicationdate";
-    public static final String CATEGORIES = "outofboxhippo:categories";
-    public static final String AUTHOR = "outofboxhippo:author";
-    public static final String AUTHOR_NAMES = "outofboxhippo:authornames";
-    public static final String LINK = "outofboxhippo:link";
-    public static final String AUTHORS = "outofboxhippo:authors";
+    public static final String TITLE = "ootb:title";
+    public static final String INTRODUCTION = "ootb:introduction";
+    public static final String CONTENT = "ootb:content";
+    public static final String PUBLICATION_DATE = "ootb:publicationdate";
+    public static final String CATEGORIES = "ootb:categories";
+    public static final String AUTHOR = "ootb:author";
+    public static final String AUTHOR_NAMES = "ootb:authornames";
+    public static final String LINK = "ootb:link";
+    public static final String AUTHORS = "ootb:authors";
     public static final String TAGS = "hippostd:tags";
 
 
-   @HippoEssentialsGenerated(internalName = "outofboxhippo:publicationdate")
+   @HippoEssentialsGenerated(internalName = "ootb:publicationdate")
     public Calendar getPublicationDate() {
         return getProperty(PUBLICATION_DATE);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:authornames")
+    @HippoEssentialsGenerated(internalName = "ootb:authornames")
     public String[] getAuthorNames() {
         return getProperty(AUTHOR_NAMES);
     }
@@ -58,34 +58,34 @@ public class Blogpost extends HippoDocument implements Authors {
     }
 
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:title")
+    @HippoEssentialsGenerated(internalName = "ootb:title")
     public String getTitle() {
         return getProperty(TITLE);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:content")
+    @HippoEssentialsGenerated(internalName = "ootb:content")
     public HippoHtml getContent() {
         return getHippoHtml(CONTENT);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:introduction")
+    @HippoEssentialsGenerated(internalName = "ootb:introduction")
     public String getIntroduction() {
         return getProperty(INTRODUCTION);
     }
 
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:link")
+    @HippoEssentialsGenerated(internalName = "ootb:link")
     public String getLink() {
         return getProperty(LINK);
     }
 
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:categories")
+    @HippoEssentialsGenerated(internalName = "ootb:categories")
     public String[] getCategories() {
         return getProperty(CATEGORIES);
     }
 
     @Override
-    @HippoEssentialsGenerated(internalName = "outofboxhippo:authors")
+    @HippoEssentialsGenerated(internalName = "ootb:authors")
     public List<Author> getAuthors() {
         return getLinkedBeans(AUTHORS, Author.class);
     }
